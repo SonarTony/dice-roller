@@ -1,5 +1,49 @@
 import random
 
+# Define the username and password
+stored_username = "admin"
+stored_password = "password123"
+# Get user input for username and password
+username_input = input("Enter your username: ")
+password_input = input("Enter your password: ")
+# Check if the entered username and password match the stored values
+if username_input == stored_username and password_input == stored_password:
+    print("Login successful!")
+else:
+    print("Login failed. Incorrect username or password.")
+a=0
+b=0
+def work():
+    return() 
+if b == b:
+    work()
+if b == b:
+    work()    
+if a == a: # Noncompliant
+    work()
+i = 0
+if not a == 2:
+    b = not i < 10
+if not a == 2:
+    b = not i < 10
+if not a == 2:
+    b = not i < 10
+if a == a:
+    work()
+
+if  a != a: # Noncompliant
+    work()
+
+if  a == b and a == b: # Noncompliant
+    work()
+
+if a == b or a == b: # Noncompliant
+    work()
+i = 0
+
+a = 4 / 4 
+j = 5 / 5 # Noncompliant
+k = 5 - 5 # Noncompliant   
 
 def roll_yellow_die():
     return random.randint(1, 20)
